@@ -40,22 +40,18 @@ document.addEventListener('DOMContentLoaded', () => {
   buttonOne.addEventListener('click', function () {
     clearDisplays();
     displayOne.classList.add("display-open");
-    console.log('one');
   });
   buttonTwo.addEventListener('click', function () {
     clearDisplays();
     displayTwo.classList.add("display-open");
-    console.log("two");
   });
   buttonThree.addEventListener('click', function () {
     clearDisplays();
     displayThree.classList.add("display-open");
-    console.log("three");
   });
   buttonFour.addEventListener('click', function () {
     clearDisplays();
     displayFour.classList.add("display-open");
-    console.log("four");
   });
 
 });
