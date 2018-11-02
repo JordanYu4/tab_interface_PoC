@@ -73,7 +73,7 @@ main {
 
 [class^="display-content-"] {
   position: absolute;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .display-content-one {
@@ -92,8 +92,8 @@ main {
 
 }
 
-.display-hidden {
-  visibility: hidden;
+.display-open {
+  visibility: visible;
 }
 
 footer { 

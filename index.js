@@ -33,29 +33,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const clearDisplays = () => {
     for (let i = 0; i < displays.length; i++) {
-      displays[i].classList.toggle("display-hidden", true);
+      displays[i].classList.remove("display-open");
     }
   };
 
   buttonOne.addEventListener('click', function () {
     clearDisplays();
-    displayOne.classList.toggle("display-hidden", true);
+    displayOne.classList.add("display-open");
     console.log('one');
   });
   buttonTwo.addEventListener('click', function () {
     clearDisplays();
+    displayTwo.classList.add("display-open");
     console.log("two");
-    
   });
   buttonThree.addEventListener('click', function () {
     clearDisplays();
+    displayThree.classList.add("display-open");
     console.log("three");
-    
   });
   buttonFour.addEventListener('click', function () {
     clearDisplays();
+    displayFour.classList.add("display-open");
     console.log("four");
-    
   });
 
 });
